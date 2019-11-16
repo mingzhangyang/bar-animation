@@ -1,0 +1,43 @@
+#main-content {
+    width: 800px;
+    height: 440px;
+    border: 2px solid darkcyan;
+    margin: 50px auto;
+    position: relative;
+}
+
+.bar {
+    width: 600px;
+    height: 40px;
+    position: absolute;
+}
+
+#b1 {
+    background-color: aquamarine;
+    top: 40px;
+}
+
+#b2 {
+    background-color: burlywood;
+    top: 120px;
+}
+
+#b3 {
+    background-color: coral;
+    top: 200px;
+}
+
+#b4 {
+    background-color: darkorchid;
+    top: 280px;
+}
+
+#b5 {
+    background-color: deepskyblue;
+    top: 360px;
+}
+
+#b6 {
+    background-color: olivedrab;
+    top: 440px;
+}
