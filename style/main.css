@@ -1,0 +1,92 @@
+#main-content {
+    width: 800px;
+    height: 440px;
+    border: 2px solid darkcyan;
+    margin: 50px auto;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+
+.bar {
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    transition: transform 400ms;
+    left: 60px;
+}
+
+#b1 {
+    background-color: aquamarine;
+    transform: translateY(40px);
+}
+
+#b2 {
+    background-color: burlywood;
+    transform: translateY(120px);
+}
+
+#b3 {
+    background-color: coral;
+    transform: translateY(200px);
+}
+
+#b4 {
+    background-color: darkorchid;
+    transform: translateY(280px);
+}
+
+#b5 {
+    background-color: deepskyblue;
+    transform: translateY(360px);
+}
+
+#b6 {
+    background-color: olivedrab;
+    transform: translateY(440px);
+}
+
+.bar span {
+    line-height: 40px;
+}
+
+.bar .name {
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+}
+
+.bar .value {
+    position: absolute;
+    left: 100%;
+    margin-left: 20px;
+}
+
+#start {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: bisque;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    transition: 400ms;
+    opacity: 1;
+}
+
+#start::before {
+    content: "▶";
+    display: block;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-34%, -58%);
+    color: #f66;
+    cursor: pointer;
+}
+
+#start.click-to-stop::before {
+    content: "■";
+    transform: translate(-50%, -50%);
+}
