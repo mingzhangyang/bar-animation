@@ -66,16 +66,21 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    background-color: bisque;
+    background-color: wheat;
     border-radius: 50%;
     bottom: 30px;
     right: 30px;
     transition: 400ms;
-    opacity: 1;
+    opacity: .8;
 }
 
 #start.running {
     opacity: 0;
+}
+
+#start:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 #start::before {
