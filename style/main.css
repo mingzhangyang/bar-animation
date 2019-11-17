@@ -71,7 +71,7 @@
     bottom: 30px;
     right: 30px;
     transition: 400ms;
-    opacity: .8;
+    opacity: 1;
 }
 
 #start.running {
@@ -80,7 +80,6 @@
 
 #start:hover {
     transform: scale(1.1);
-    opacity: 1;
 }
 
 #start::before {
