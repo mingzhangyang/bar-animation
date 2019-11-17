@@ -74,6 +74,10 @@
     opacity: 1;
 }
 
+#start.running {
+    opacity: 0;
+}
+
 #start::before {
     content: "▶";
     display: block;
@@ -81,7 +85,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-34%, -58%);
+    transform: translate(-34%, -45%);
     color: #f66;
     cursor: pointer;
 }

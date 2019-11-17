@@ -9,12 +9,14 @@ export default function update(obj1, obj2=null, ratio=0) {
         value: v1 + (v2 - v1) * ratio,
       });
     }
+
     res.sort((a, b) => {
       if (a.value > b.value) {
         return -1;
       }
       return 1;
     });
+
     return res;
   }
 
