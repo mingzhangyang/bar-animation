@@ -81,7 +81,8 @@
 #start::before {
     content: "▶";
     display: block;
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 28px;
     position: absolute;
     top: 50%;
     left: 50%;
